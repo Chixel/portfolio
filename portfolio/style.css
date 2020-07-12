@@ -1,0 +1,93 @@
+body {
+    font-family: "Roboto";
+    margin: 0px;
+    font-size: 1em;
+}
+
+section {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+h1 {
+    font-size: 1.7em;
+}
+
+.info {
+    margin-top: 30vh;
+    height: 65vh;
+}
+
+.container {
+    text-align: center;
+}
+
+.info-text h1 {
+    font-size: 1.2rem;
+    letter-spacing: 0.5rem;
+}
+
+.info-text h3 {
+    font-size: 2.2rem;
+    margin: 5px;
+    background: linear-gradient( to right, rgba(249, 105, 14, 1) 0%, rgba(102, 51, 153, 1)70% );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.info-text p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-top: 0px;
+}
+
+.about .container {
+    max-width: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.about {
+    background-color: rgb(40, 40, 50);
+    color: white;
+}
+
+.about p {
+    text-align: left;
+    font-size: 1.2em;
+    max-width: 40rem;
+    margin-top: 3vh;
+}
+
+.project-list {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.project {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    margin-bottom: 85px;
+}
+
+.project-image {
+    width: 100px;
+    height: 100px;
+}
+
+.project-info {
+    margin-left: 20px;
+    font-size: 1.2em;
+}
+
+.project-title {
+    margin-top: 0px;
+    font-size: 1.3em;
+}
